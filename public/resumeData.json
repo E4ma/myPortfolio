@@ -1,0 +1,138 @@
+{
+    "main": {
+        "name": "Ifeoma Idoko",
+        "pronounce": "[ee - FAW - mah]",
+        "description": "HOWDY!! I am a full stack developer and a former wealth management advisor who enjoys enhancing systems with innovative features and improvements",
+        "image": "profilepic.jpg",
+        "bio": "When I am not programming, you can find me watching investigative tv or spending time in beautiful nature. My interests include documentaries, AI and the human psyche while my personality traits involve resourcefulness, free-spirited and a reserved nature. I do a lot of work with ReactJs, NodeJs, PostgreSQL and MongoDB but I am looking forward to learning Rust and Python.",
+        "contactmessage": "Do you like what you see? Let's chat!",
+        "github": "https://github.com/e4ma",
+        "linkedin": "https://www.linkedin.com/in/ifeomaidoko/",
+        "address": {
+            "street": "(Your Street)",
+            "city": "(Your City)",
+            "state": "(Your State)",
+            "zip": "(Your Zip/Postal Code)"
+        },
+        "website": "http://www.timbakerdev.com",
+        "resumedownload": "http://timbakerdev.com",
+        "social": [{
+                "name": "facebook",
+                "url": "https://github.com/nordicgiant2/react-nice-resume",
+                "className": "fa fa-facebook"
+            },
+            {
+                "name": "twitter",
+                "url": "http://twitter.com",
+                "className": "fa fa-twitter"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "http://instagram.com/tbaker_x",
+                "className": "fa fa-instagram"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/nordicgiant2/react-nice-resume",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "SOME OF MY SKILLS INCLUDE THE FOLLOWING",
+        "education": [{
+                "school": "University?",
+                "degree": "Masters in Beer tasting",
+                "graduated": "April 2007",
+                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+            },
+            {
+                "school": "School #1 Maybe College?",
+                "degree": "What did you study 101",
+                "graduated": "March 2003",
+                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+            }
+        ],
+        "work": [{
+                "company": "Awesome Design Studio",
+                "title": "Senior UX God ",
+                "years": "March 2010 - Present",
+                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+            },
+            {
+                "company": "Super Cool Studio",
+                "title": "Junior bug fixer",
+                "years": "March 2007 - February 2010",
+                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+            }
+        ],
+        "skills": [{
+                "name": "SQL",
+                "level": "60%"
+            },
+            {
+                "name": "ReactJs",
+                "level": "90%"
+            },
+            {
+                "name": "Scrum Agile Methodology",
+                "level": "90%"
+            },
+            {
+                "name": "HTML/CSS/Javascript",
+                "level": "100%"
+            },
+            {
+                "name": "NoSQL",
+                "level": "55%"
+            },
+            {
+                "name": "RESTful APIs",
+                "level": "80%"
+            },
+            {
+                "name": "NodeJs",
+                "level": "85%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [{
+                "title": "Roamin",
+                "category": "An app that shows you activities within the chosen city based on the chosen travel personality",
+                "image": "roamin.jpg",
+                "live": "https://www.canadianwanderlust.com",
+                "code": ""
+            },
+            {
+                "title": "Fury Fighting Gear",
+                "category": "(offline now) A fighting gear company I started",
+                "image": "fury-fighting-gear.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Original Thai Food",
+                "category": "Website I built for a restaurant I like in Thailand",
+                "image": "original-thai-food.jpg",
+                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+            },
+            {
+                "title": "Resume Website",
+                "category": "A React based resume website template",
+                "image": "resume-website.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Smirkspace",
+                "category": "(MVP Only) A React and Meteor based chat University project.",
+                "image": "smirkspace.jpg",
+                "url": "http://www.smirkspace.com"
+            }
+        ]
+    }
+}
