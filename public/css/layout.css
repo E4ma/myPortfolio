@@ -600,9 +600,14 @@ ul#nav li.current a {
     margin-bottom: 0;
 }
 
-.portfolio-item .portfolio-item-meta a button {
+.portfolio-item .portfolio-item-meta .meta-div {
+    margin-top: 8px;
+}
+
+.portfolio-item .portfolio-item-meta .btn {
     margin: 0;
-    padding: 1px;
+    padding: 8px;
+    display: inline;
 }
 
 
@@ -1019,15 +1024,16 @@ call-to-action .button {
 #contact {
     background: #191919;
     padding-top: 96px;
-    padding-bottom: 102px;
+    padding-bottom: 95px;
     color: #636363;
 }
 
 #contact .section-head {
     margin-bottom: 42px;
+    text-align: center;
 }
 
-#contact a,
+/* #contact a,
 #contact a:visited {
     color: #0762f9;
 }
@@ -1035,7 +1041,7 @@ call-to-action .button {
 #contact a:hover,
 #contact a:focus {
     color: #fff;
-}
+} */
 
 #contact h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
@@ -1050,8 +1056,8 @@ call-to-action .button {
 }
 
 #contact h1:before {
-    font-family: 'FontAwesome';
-    content: "\f0e0";
+    /* font-family: 'FontAwesome';
+    content: "\f0e0"; */
     padding-right: 10px;
     font-size: 72px;
     line-height: 72px;
@@ -1220,6 +1226,12 @@ footer a:focus {
 footer .copyright {
     margin: 0;
     padding: 0;
+}
+
+footer .copyright .hart {
+    padding-left: 1px;
+    padding-right: 1px;
+    color: red;
 }
 
 footer .copyright li {

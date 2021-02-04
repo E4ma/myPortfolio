@@ -1,23 +1,22 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
-  render() {
+   render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
-    }
+      if (this.props.data) {
+         var email = this.props.data.email;
+         var message = this.props.data.contactmessage;
+      }
 
-    return (
-      <section id="contact">
+      return (
+         <section id="contact">
+            <div className="row section-head">
+               <p className="lead"><h1>{message}</h1></p>
+               <a href={`mailto:${email}`} className="button" >
+                  Let's chat</a>
+            </div>
 
-         <div className="row section-head">
+            {/* <div className="row section-head">
 
             <div className="two columns header-col">
 
@@ -31,12 +30,12 @@ class Contact extends Component {
 
             </div>
 
-         </div>
+         </div> */}
 
-         <div className="row">
-            <div className="eight columns">
+            {/* <div className="row">
+            <div className="eight columns"> */}
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+            {/* <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -71,11 +70,11 @@ class Contact extends Component {
            <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
-           </div>
+				   </div> */}
+            {/* </div>  */}
 
 
-            <aside className="four columns footer-widgets">
+            {/* <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
 					   <h4>Address and Phone</h4>
@@ -108,11 +107,11 @@ class Contact extends Component {
                      </li>
                   </ul>
 		         </div>
-            </aside>
-      </div>
-   </section>
-    );
-  }
+            </aside> */}
+            {/* </div> */}
+         </section>
+      );
+   }
 }
 
 export default Contact;

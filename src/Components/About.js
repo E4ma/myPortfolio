@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import pdf from '../docs/myResume.pdf';
 
 class About extends Component {
   render() {
@@ -6,7 +7,6 @@ class About extends Component {
     if(this.props.data){
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
-      var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
@@ -24,7 +24,7 @@ class About extends Component {
                   <p className="address">
                   
                      <a href="#contact" className="button"><i className="fa fa-envelope"></i> Contact me</a>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i> My Resume</a>
+                     <a href={pdf} className="button"><i className="fa fa-download"></i> My Resume</a>
                   
 					   </p>
                </div>

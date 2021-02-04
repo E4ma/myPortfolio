@@ -19,8 +19,8 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2017 Nordic Giant</li>
-              <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+              <li>&copy; {new Date().getFullYear()} </li>
+              <li>Made with <i className="fa fa-heart heart hart" /> by <a title="E4ma" href="http://www.ifeomaidoko.com/">E4ma</a></li>
            </ul>
 
         </div>
