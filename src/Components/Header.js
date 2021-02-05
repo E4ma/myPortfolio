@@ -5,8 +5,8 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
-       var linkedin = this.props.data.linkedin;
-       var github = this.props.data.github;
+      //  var linkedin = this.props.data.linkedin;
+      //  var github = this.props.data.github;
       var name = this.props.data.name;
       var pronounce = this.props.data.pronounce;
       var description= this.props.data.description;
