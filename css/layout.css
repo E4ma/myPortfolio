@@ -586,27 +586,29 @@ ul#nav li.current a {
 }
 
 .portfolio-item .portfolio-item-meta {
-    padding: 18px
+    padding: 18px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .portfolio-item .portfolio-item-meta h5 {
-    font: 14px/21px 'opensans-bold', sans-serif;
+    font: 24px/31px 'opensans-bold', sans-serif;
     color: #fff;
 }
 
 .portfolio-item .portfolio-item-meta p {
-    font: 12px/18px 'opensans-light', sans-serif;
+    font: 22px/28px 'opensans-light', sans-serif;
     color: #c6c7c7;
     margin-bottom: 0;
 }
 
 .portfolio-item .portfolio-item-meta .meta-div {
-    margin-top: 8px;
+    margin-top: 15px;
 }
 
 .portfolio-item .portfolio-item-meta .btn {
-    margin: 0;
-    padding: 8px;
+    margin: 5px;
+    padding: 10px;
     display: inline;
 }
 

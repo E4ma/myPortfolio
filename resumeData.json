@@ -2,9 +2,9 @@
     "main": {
         "name": "Ifeoma Idoko",
         "pronounce": "[ee - FAW - mah]",
-        "description": "HOWDY!! I am a full stack developer and a former wealth management advisor who enjoys enhancing systems with innovative features and improvements",
+        "description": "HOWDY!! Salaam! سلام! Ndeewo! Welcome to my site. Scroll down to learn a bit about me and see some projects I have worked on",
         "image": "profilepic.jpg",
-        "bio": "When I am not programming, you can find me watching investigative tv or spending time in beautiful nature. My interests include documentaries, AI and the human psyche while my personality traits involve resourcefulness, free-spirited and a reserved nature. I do a lot of work with ReactJs, NodeJs, PostgreSQL and MongoDB but I am looking forward to learning Rust and Python.",
+        "bio": "When I am not programming, you can find me watching investigative tv, gardening, working on a DIY project or spending time in beautiful nature. My interests include documentaries, AI and the human psyche while my personality traits involve big picture thinking, people-focused, free-spirited and a reserved nature. ",
         "contactmessage": "Like what you see? Awesome!",
         "email": "ifeomaidoko@gmail.com",
         "github": "https://github.com/e4ma",
@@ -31,16 +31,17 @@
     },
     "resume": {
         "skillmessage": "SOME OF MY SKILLS INCLUDE THE FOLLOWING",
-        "skills": [{
-                "name": "SQL",
+        "skills": [
+            {
+                "name": "PostgreSQL",
                 "level": "60%"
             },
             {
-                "name": "ReactJs",
+                "name": "React",
                 "level": "90%"
             },
             {
-                "name": "Scrum Agile Methodology",
+                "name": "SCRUM (Agile)",
                 "level": "90%"
             },
             {
@@ -48,40 +49,34 @@
                 "level": "100%"
             },
             {
-                "name": "NoSQL",
-                "level": "55%"
+                "name": "MongoDB",
+                "level": "65%"
             },
             {
-                "name": "RESTful APIs",
-                "level": "80%"
+                "name": "Express",
+                "level": "90%"
             },
             {
-                "name": "NodeJs",
-                "level": "85%"
+                "name": "Node",
+                "level": "95%"
             }
         ]
     },
     "portfolio": {
-        "projects": [{
-                "title": "Roamin",
-                "category": "(MVP only)An app that shows you activities within the chosen city based on the chosen travel personality",
-                "image": "roamin.jpg",
-                "live": "https://www.youtube.com/watch?v=AY5wVro-8UE&feature=youtu.be",
-                "code": "https://github.com/E4ma/travelapp-combined"
+        "projects": [
+            {
+                "title": "GKeep (Clone)",
+                "category": "Google Keep web application clone with a dark side haha!. Cool drawer too...",
+                "image": "Gkeep.JPG",
+                "live": "https://e4ma.github.io/google_keep_clone/",
+                "code": "https://github.com/E4ma/google_keep_clone"
             },
             {
-                "title": "Face Detection Bot",
-                "category": "This bot will detect the faces in an image url. I built this using ReactJs alongside RESTful APIs and Clarifai API",
-                "image": "faceDetect.jpg",
-                "live": "https://e4ma.github.io/face-detection-bot/",
-                "code": "https://github.com/E4ma/face-detection-bot"
-            },
-            {
-                "title": "Background Gen",
-                "category": "Website I built with only JavaScript. This creates background color combination you'll like for your project.",
-                "image": "backGen.jpg",
-                "live": "https://e4ma.github.io/backgroundGenerator/",
-                "code": "https://github.com/E4ma/backgroundGenerator"
+                "title": "HummingBird",
+                "category": "On this web app, you can build a customized music visualizer by importing your own music, images and icons.",
+                "image": "hummingbirdy.JPG",
+                "live": "https://mandalorians-f3434.web.app/About",
+                "code": "https://github.com/E4ma/musicVisualizerApp"
             },
             {
                 "title": "Landing Page",
@@ -92,10 +87,24 @@
             },
             {
                 "title": "My First",
-                "category": "The first project I coded. I used HTML, CSS and vanilla JavaScript with no responsiveness even. I have come a long way from here.",
+                "category": "The first project I coded. I used HTML, CSS and JavaScript. I have come a long way from here.",
                 "image": "first.jpg",
                 "live": "https://e4ma.github.io/evolveu_project1/",
                 "code": "https://github.com/E4ma/evolveu_project1"
+            },
+            {
+                "title": "MyExpenses",
+                "category": "Built this when I was practising my javascript. MyExpenses easily records and reconciles your income and expenses.",
+                "image": "expenses.JPG",
+                "live": "https://e4ma.github.io/expenses_js/",
+                "code": "https://github.com/E4ma/expenses_js"
+            },
+            {
+                "title": "Face Detection Bot",
+                "category": "This bot will detect the faces in an image url. I built this using React alongside and Clarifai API.",
+                "image": "faceDetect.jpg",
+                "live": "https://e4ma.github.io/face-detection-bot/",
+                "code": "https://github.com/E4ma/face-detection-bot"
             }
         ]
     }
